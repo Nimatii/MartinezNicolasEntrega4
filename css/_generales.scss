@@ -1,0 +1,45 @@
+* {margin: 0;padding: 0;}
+$colorPrincipal:slateblue; 
+$color-secundario:rebeccapurple;
+$color-texto: white;
+
+body{
+    background-color:$colorPrincipal;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    .container-fluid{
+        padding:0;
+    }
+    
+}
+
+h1,h2,h3,h4,a,label{
+    color: $color-texto;
+}
+
+
+.dropdown{
+    padding: 20px;
+
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: rgb(165, 105, 221);
+    border-color: rgb(165, 105, 221);
+}
+
+.nav-container{
+    padding: 8px;
+}
+
+.btn{
+    color: $color-texto;
+        &:hover{
+            background-color: #5002a8;
+        border-color: #5002a8;;
+        }
+}
+
+
+

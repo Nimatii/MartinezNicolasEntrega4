@@ -1,0 +1,11 @@
+$margen:100px;
+#productos{
+    grid-area: productos;
+    display: grid;
+    grid-template-columns: repeat(4, 465px);
+    grid-template-rows: repeat(4, 476px);
+    div{
+        margin: $margen $margen;
+        padding-left: $margen/2;
+    }
+}

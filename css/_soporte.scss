@@ -1,0 +1,9 @@
+$colorPrincipal:slateblue; 
+$color-secundario:rebeccapurple;
+$color-texto: white;
+
+@mixin color-fondo($color: rebeccapurple){
+    background-color: $color;
+}
+
+

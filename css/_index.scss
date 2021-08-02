@@ -1,0 +1,22 @@
+.productos{background-color: $color-secundario;
+        text-align: center;
+        padding: 10px;
+}   
+.filtros{background-color: $color-secundario;
+    width: 170px;
+    padding-left: 20px;
+    height: 600px;
+    float: left;
+}
+.cuerpo{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    
+    a{
+        padding: 20px;
+        &:hover{
+            transform: scale(1.1,1.1);
+        }
+    }
+}

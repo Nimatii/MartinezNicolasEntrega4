@@ -1,0 +1,17 @@
+$colorPrincipal:slateblue; 
+$color-secundario:rebeccapurple;
+$color-texto: white;
+
+header{
+    color: $color-secundario;
+    background-image:url(../media/Fondo.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    height: 190px;
+    font-size: 40px;
+    text-align: center;
+    h1{
+        color: $color-secundario;
+        padding-top: 20px;
+    }
+}

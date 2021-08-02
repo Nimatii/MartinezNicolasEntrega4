@@ -1,0 +1,38 @@
+$colorPrincipal:slateblue; 
+$color-secundario:rebeccapurple;
+$color-texto: white;
+
+@mixin color-fondo($color: rebeccapurple, $color-letra:black){
+    background-color: $color;
+    color:$color-letra;
+}
+
+
+
+nav{
+    background-color: rgb(165, 105, 221);
+    text-align: center;
+    list-style: none;
+    a{
+        color:white
+    }
+}
+
+
+.soporte{padding-top: 30px;
+    padding-left: 40%;
+    .botones{
+        background-color: rgb(165, 105, 221);
+        border: none;
+        color: $color-texto;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 8px;
+        &:hover{
+            @include color-fondo;
+        }
+    }
+}
